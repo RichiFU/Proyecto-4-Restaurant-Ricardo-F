@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.custom-b-reserva {
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgb(13, 1, 24) 20%,
+            rgb(13, 1, 24) 40%,
+            rgb(13, 1, 24) 60%,
+            /* Color morado */
+            rgb(13, 1, 24) 80%,
+            rgba(0, 0, 0, 1) 100%);
+    color: white;
+    /* Color de texto blanco */
+}
+
+.custom-reserva-image {
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.custom-reserva-button {
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+
+.custom-reserva-button:hover {
+    background-color: #800080;
+    border-color: #800080;
+}

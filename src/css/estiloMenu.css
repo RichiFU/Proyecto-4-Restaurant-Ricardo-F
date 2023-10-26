@@ -1,0 +1,73 @@
+.section-menu {
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgb(13, 1, 24) 20%,
+      rgb(13, 1, 24) 40%,
+      rgb(13, 1, 24) 60%,
+      /* Color morado */
+      rgb(13, 1, 24) 80%,
+      rgba(0, 0, 0, 1) 100%);
+}
+
+.custom-row-menu {
+  padding-top: 40px;
+}
+
+.custom-row-menu .card {
+  border: 1px solid #292929;
+  /* o Color morado (#800080) */
+  background-color: #292929;
+}
+
+.custom-card-menu {
+  background: linear-gradient(rgba(129, 26, 189, 0), rgba(0, 0, 0, 0.895));
+}
+
+.custom-card-menu:hover {
+  box-shadow: 5px 8px 12px 1px rgba(67, 15, 67, 0.774) !important;
+  transition: all 0.4s linear;
+}
+
+
+.overflow-card {
+  overflow: hidden;
+}
+
+.card-image-t {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.card-image-t:hover {
+  transform: scale(1.2);
+}
+
+.content-menu {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.content-menu h1 {
+  font-size: 36px;
+}
+
+.content-menu p {
+  margin-top: 32px;
+  font-size: 20px;
+}
+
+.image-container-menu img {
+  max-width: 12vh;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .custom-row-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

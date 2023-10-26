@@ -1,0 +1,77 @@
+
+.bg-home {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgb(13, 1, 24) 20%,
+        rgb(13, 1, 24) 40%,
+        rgb(13, 1, 24) 60%, /* Color morado */
+        rgb(13, 1, 24) 80%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+.content-carousel-1 {
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.custom-c-home1{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('../../public/arcade-barra.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    width: 100%;
+}
+
+.custom-c-home2{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../../public/arcade-games2.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    width: 100%;
+}
+
+.custom-c-home3{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../../public/restobar-food2.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+    width: 100%;
+}
+
+.content-carousel-1 p {
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.content-carousel-2 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.content-carousel-2 h1 {
+    font-size: 36px;
+}
+
+.content-carousel-2 p {
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container img {
+    margin-top: 18px;
+    max-width: 30vh;
+}
+
+
+

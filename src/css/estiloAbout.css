@@ -1,0 +1,34 @@
+.custom-background {
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgb(13, 1, 24) 20%,
+      rgb(13, 1, 24) 40%,
+      rgb(13, 1, 24) 60%,
+      /* Color morado */
+      rgb(13, 1, 24) 80%,
+      rgba(0, 0, 0, 1) 100%);
+  color: white;
+}
+
+.custom-about-title {
+  padding-top: 40px !important;
+}
+
+.custom-horario-about {
+  padding-top: 40px;
+  padding-bottom: 90px;
+  color: white;
+  font-weight: bold;
+}
+
+.custom-description-about p {
+  font-size: 18px;
+}
+
+.custom-horario-about h2 {
+  font-size: 34px;
+}
+
+.custom-horario-about p {
+  font-size: 18px;
+}
