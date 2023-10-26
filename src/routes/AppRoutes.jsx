@@ -7,7 +7,7 @@ import Admin from "../views/Admin";
 import Contacto from "../views/Contacto";
 import Reservas from "../views/Reservas";
 import NotFoundPage from "../views/NotFoundPage";
-// import Product from "../views/Product";
+
 
 
 
@@ -21,7 +21,6 @@ const AppRoutes = () => {
           <Route path="/about" element={<About />} />
           <Route path="/reservas" element={<Reservas />} />
           <Route path="/contacto" element={<Contacto />} />
-          {/* <Route path="/menu/:platoId" element={<Product />} /> */}
           <Route path="/admin" element={<Admin />} />
           <Route path="*" element={<NotFoundPage/>} />
         </Route>
