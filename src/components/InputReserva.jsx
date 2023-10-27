@@ -24,7 +24,7 @@ const InputReserva = ({ nombre, setNombre, email, setEmail, telefono, setTelefon
                         type="email"
                         placeholder="Ingresa tu email"
                         className="custom-input-form"
-                        
+
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}
                     />
@@ -36,7 +36,7 @@ const InputReserva = ({ nombre, setNombre, email, setEmail, telefono, setTelefon
                         type="number"
                         placeholder="569 xxxxxxxx"
                         className="custom-input-form"
-                       
+
                         value={telefono}
                         onChange={(event) => setTelefono(event.target.value)}
                     />
@@ -59,7 +59,7 @@ const InputReserva = ({ nombre, setNombre, email, setEmail, telefono, setTelefon
                         type="number"
                         placeholder="Ingresa tu mesa"
                         className="custom-input-form"
-                       
+
                         value={mesa}
                         onChange={(event) => setMesa(event.target.value)}
                     />

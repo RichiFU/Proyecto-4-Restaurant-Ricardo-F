@@ -39,7 +39,7 @@ const Home = () => {
         <h1>Sabor y Juegos en un Solo Lugar</h1>
         <p>Únete a nosotros y descubre una fusión única de sabor y diversión en cada rincón de nuestro restaurante temático de estilo arcade.</p>
         <div className="image-container">
-          <img src="../../public/game-o2.png" alt="Imagen Debajo del Párrafo" />
+          <img src="../../public/images/game-o2.png" alt="Imagen Debajo del Párrafo" />
         </div>
       </div>
 

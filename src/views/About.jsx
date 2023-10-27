@@ -17,7 +17,7 @@ const About = () => {
           <Row className="mt-5 justify-content-around">
 
             <Col lg={6}>
-              <Image src="../../public/arcade-resto-bar.jpg" alt="Arcade RestoBar" fluid className="mb-4 mt-4" />
+              <Image src="../../public/images/arcade-resto-bar.jpg" alt="Arcade RestoBar" fluid className="mb-4 mt-4" />
             </Col>
 
             <Col lg={5}>

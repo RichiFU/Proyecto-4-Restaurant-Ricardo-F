@@ -20,7 +20,7 @@
 }
 
 .custom-c-home1{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('../../public/arcade-barra.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('../../public/images/arcade-barra.jpg');
     background-size: cover;
     background-position: center center;
     height: 55vh;
@@ -28,7 +28,7 @@
 }
 
 .custom-c-home2{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../../public/arcade-games2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../../public/images/arcade-games2.jpg');
     background-size: cover;
     background-position: center center;
     height: 55vh;
@@ -36,7 +36,7 @@
 }
 
 .custom-c-home3{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../../public/restobar-food2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../../public/images/restobar-food2.jpg');
     background-size: cover;
     background-position: center center;
     height: 55vh;

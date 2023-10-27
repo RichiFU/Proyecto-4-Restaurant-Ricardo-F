@@ -8,7 +8,12 @@ body {
     margin-right: 20px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
 
+.nav-logo:hover {
+    transform: scale(1.1);
 }
 
 .custom-navbar {
@@ -17,7 +22,6 @@ body {
 }
 
 .pixel-nav {
-    background-image: linear-gradient(rgba(19, 1, 34, 0.900), rgb(0, 0, 0)), url('/public/nav-pixel-2.jpg');
+    background-image: linear-gradient(rgba(19, 1, 34, 0.900), rgb(0, 0, 0)), url('/public/images/nav-pixel-2.jpg');
     background-position: center;
 }
-
