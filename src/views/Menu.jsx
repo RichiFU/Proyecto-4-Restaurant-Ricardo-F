@@ -51,7 +51,7 @@ const Menu = () => {
                                     </div>
                                     <Card.Body className="text-light">
                                         <Card.Title>{plato.nombre}</Card.Title>
-                                        <Card.Text className="text-secondary">{plato.detalles}</Card.Text>
+                                        <Card.Text className="text-secondary" style={{ paddingTop: "10px", minHeight:"10.5rem"}}>{plato.detalles}</Card.Text>
                                         <p>Precio: ${plato.valor}</p>
                                         {/* <Button as={Link} to={`/menu/${plato.id}`} variant="primary">Ver Producto</Button> */}
                                     </Card.Body>

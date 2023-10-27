@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 <div className="mt-5 custom-description-about">
                   <p>
-                    Bienvenidos a Arcade Taste Restobar, ubicados en pleno centro de Temuco, donde la nostalgia, la comida y los juegos se encuentran. Desde nuestra apertura en octubre del 2023, hemos estado comprometidos a brindar a nuestros clientes una experiencia culinaria que los transporte a la era dorada de los videojuegos.
+                    Bienvenidos a Arcade Taste Restobar, ubicados en pleno centro de Temuco, #001, Calle React, donde la nostalgia, la comida y los juegos se encuentran. Desde nuestra apertura en octubre del 2023, hemos estado comprometidos a brindar a nuestros clientes una experiencia culinaria que los transporte a la era dorada de los videojuegos.
                   </p>
                   <p>
                     Fundado por entusiastas de los videojuegos, nuestro restaurante combina una deliciosa variedad de platos con un ambiente lleno de referencias a los juegos retro. Cada bocado es una oportunidad para recordar los clásicos y compartir esa emoción con amigos y familiares mientras juegas.
