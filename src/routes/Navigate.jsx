@@ -6,37 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Image } from "react-bootstrap";
 import "../css/estiloNav.css"
 
-// const Navigate = () => {
-//   return (
-//     <header>
-//         <nav>
-//             <a href="/">Home</a>
-//             <a href="/menu">Menu</a>
-//             <a href="/about">About</a>
-//             <a href="/Reserva">Reserva</a>
-//             <a href="/admin">Admin</a>
-//         </nav>
-//     </header>
-//   )
-// }
-
-// export default Navigate
-
 
 const Navigate = () => {
   return (
-    // <div>
-
-    //     <NavLink to="/home">Home</NavLink>
-    //     <NavLink to="/products">Products</NavLink>
-    //     <NavLink to="/login">Login</NavLink>
-
-    //     <div>
-    //         <a href="/home">Home</a>
-    //         <a href="/products">Products</a>
-    //         <a href="/login">Login</a>
-    //     </div>
-    // </div>
     <header>
       <Navbar expand="lg" bg="dark" variant="dark" className="pixel-nav">
         <Container className="custom-navbar">
