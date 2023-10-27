@@ -14,7 +14,7 @@ const Navigate = () => {
         <Container className="custom-navbar">
           <div>
             <Nav.Link className="navlink-logo" as={NavLink} to="/">
-              <Image src="../../public/images/arcade-logo2.jpg" className="nav-logo border border-1" rounded />
+              <Image src="../images/arcade-logo2.jpg" className="nav-logo border border-1" rounded />
             </Nav.Link>
           </div>
           <div>
