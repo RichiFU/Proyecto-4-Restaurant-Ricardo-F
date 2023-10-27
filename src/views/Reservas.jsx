@@ -19,7 +19,7 @@ const Reservas = () => {
         if (validateForm()) {
             await createCliente();
             clearForm();
-            alert("Reserva Realizada") //revisar aca
+            alert("Reserva Realizada") 
         }
     };
 
@@ -52,22 +52,16 @@ const Reservas = () => {
         } else if (!email.includes("@")) {
             alert('El correo no es valido (falta @)');
             return false;
-        }
-        // Validar campo de nombre
-        if (nombre == "") {
+        } else if (nombre == "") {
             alert('El nombre es requerido');
             return false;
-        }
-        // Validar campo de teléfono
-        if (telefono == "") {
+        } else if (telefono == "") {
             alert('El telefono es requerido');
             return false;
-        }
-        if (fecha == "") {
+        } else if (fecha == "") {
             alert('La fecha es requerida');
             return false;
-        }
-        if (mesa == "") {
+        } else if (mesa == "") {
             alert('La mesa es requerida');
             return false;
         }

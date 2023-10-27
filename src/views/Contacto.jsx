@@ -36,6 +36,7 @@ const Contacto = () => {
             const collectionRef = collection(db, "Mensajes");
             await addDoc(collectionRef, { ...cliente });
             setCliente({ ...valorInicial });
+            alert("Mensaje enviado exitosamente"); 
         } catch (error) {
             console.log(error);
         }
