@@ -126,7 +126,7 @@ const Contacto = () => {
                     <div className="d-flex justify-content-center custom-contact-image p-4">
                         <div>
                             <Image
-                                src="../../public/images/mario-tube.png"
+                                src="../images/mario-tube.png"
                                 alt="Tubo Mario"
                                 fluid
                                 className="mario-image"

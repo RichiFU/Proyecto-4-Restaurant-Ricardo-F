@@ -64,7 +64,7 @@ const Menu = () => {
 
             <div className="content-menu">
                 <div className="image-container-menu">
-                    <img src="../../public/images/levelup2.png" alt="LevelUp Menu" />
+                    <img src="../images/levelup2.png" alt="LevelUp Menu" />
                 </div>
             </div>
          

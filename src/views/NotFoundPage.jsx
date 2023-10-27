@@ -18,7 +18,7 @@ const NotFoundPage = () => {
             <div className=" container d-flex flex-column align-items-center justify-content-center h-100 pt-5 ">
                 <div className="text-center">
                     <Image
-                        src="../../public/images/Error-404.png"
+                        src="../images/Error-404.png"
                         alt="Error 404"
                         fluid
                         className="error404"
