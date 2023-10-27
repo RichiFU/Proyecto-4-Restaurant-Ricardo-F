@@ -1,4 +1,4 @@
-import { useState} from "react";
+import { useState } from "react";
 import { db } from "../config/Firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { Form, Button, Container, Image } from "react-bootstrap";
@@ -36,7 +36,7 @@ const Contacto = () => {
             const collectionRef = collection(db, "Mensajes");
             await addDoc(collectionRef, { ...cliente });
             setCliente({ ...valorInicial });
-            alert("Mensaje enviado exitosamente"); 
+            alert("Mensaje enviado exitosamente");
         } catch (error) {
             console.log(error);
         }
@@ -123,22 +123,22 @@ const Contacto = () => {
                             Enviar
                         </Button>
                     </Form>
-                       <div className="d-flex justify-content-center custom-contact-image p-4">
-                    <div>
-                        <Image
-                            src="../../public/mario-tube.png"
-                            alt="Tubo Mario"
-                            fluid
-                            className="mario-image"
-                            style={{ maxWidth: "200px", height: "auto" }}
-                        />
+                    <div className="d-flex justify-content-center custom-contact-image p-4">
+                        <div>
+                            <Image
+                                src="../../public/mario-tube.png"
+                                alt="Tubo Mario"
+                                fluid
+                                className="mario-image"
+                                style={{ maxWidth: "200px", height: "auto" }}
+                            />
+                        </div>
                     </div>
-                </div>
                 </Container>
-             
+
             </div>
 
-            
+
         </section>
     );
 };
