@@ -71,6 +71,11 @@
 .image-container img {
     margin-top: 18px;
     max-width: 30vh;
+    
+}
+
+.imagen-game-over {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../../public/images/game-o2.png');
 }
 
 
