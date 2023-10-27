@@ -1,4 +1,4 @@
-# Proyecto de Restobar Arcade
+# Proyecto Restaurant: Restobar Arcade
 
 Este proyecto es un sitio web para el Restobar Arcade Taste, un lugar temático que combina deliciosa comida con videojuegos retro. Está construido en React y utiliza Bootstrap y CSS para la maquetación y estilos. A continuación, se describen los componentes y funcionalidades clave que componen este proyecto.
 
