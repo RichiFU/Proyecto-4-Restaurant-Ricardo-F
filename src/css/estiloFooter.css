@@ -3,13 +3,16 @@
 }
 
 .social-icons-a {
-    background: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 10px;
-    border-radius: 50%;
+    
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
 }
 
 .social-icons-a:hover {
-    transform: scale(1.8);
+    transform: scale(1.45);
 }
+
+.links-footer:hover {
+    color: #8b058b !important;
+}
+

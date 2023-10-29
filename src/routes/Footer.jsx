@@ -18,17 +18,17 @@ const Footer = () => {
                             <h5 className="text-uppercasse mb-4 font-weight-bold text-primary">Links</h5>
                             <hr className="mb-4" />
                             <ul className="list-unstyled text-md-start">
-                                <li className="mb-3 ">
-                                    <a href="#" className="text-light" >Menu</a>
+                                <li className="mb-3">
+                                    <a href="#" className="links-footer text-light" >Menu</a>
                                 </li>
                                 <li className="mb-3">
-                                    <a href="#" className="text-light">Sobre Nosotros</a>
+                                    <a href="#" className="links-footer text-light">Sobre Nosotros</a>
                                 </li>
                                 <li className="mb-3">
-                                    <a href="#" className="text-light">Reservas</a>
+                                    <a href="#" className="links-footer text-light">Reservas</a>
                                 </li >
                                 <li className="mb-3">
-                                    <a href="#," className="text-light">Contacto</a>
+                                    <a href="#," className="links-footer text-light">Contacto</a>
                                 </li>
                             </ul>
                         </div>
@@ -57,16 +57,16 @@ const Footer = () => {
                             <hr className="mb-4" />
                             <ul className="list-unstyled">
                                 <li className="mb-3">
-                                    <a href="#" className="text-light text-decoration-none" ><FaFacebook size={"25"} color="#fff" /></a>
+                                    <a href="#" className="text-light text-decoration-none" ><FaFacebook className="social-icons-a" size={"25"} color="#fff" /></a>
                                 </li>
                                 <li className="mb-3">
-                                    <a href="#" className="text-light"><FaXTwitter size={"25"} color="#fff" /></a>
+                                    <a href="#" className="text-light"><FaXTwitter className="social-icons-a" size={"25"} color="#fff" /></a>
                                 </li>
                                 <li className="mb-3">
-                                    <a href="#" className="text-light"><FaInstagram size={"25"} color="#fff" /></a>
+                                    <a href="#" className="text-light"><FaInstagram className="social-icons-a" size={"25"} color="#fff" /></a>
                                 </li >
                                 <li className="mb-3">
-                                    <a href="#" className="text-light"><FaYoutube size={"25px"} color="#fff" /></a>
+                                    <a href="#" className="text-light"><FaYoutube className="social-icons-a" size={"25px"} color="#fff" /></a>
                                 </li>
                             </ul>
                         </div>
