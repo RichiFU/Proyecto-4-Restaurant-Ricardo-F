@@ -1,7 +1,7 @@
 
 import { Container, Form } from "react-bootstrap";
 
-
+// Props
 const InputReserva = ({ nombre, setNombre, email, setEmail, telefono, setTelefono, fecha, setFecha, mesa, setMesa, getDate }) => {
     return (
         <Container className="mx-auto" style={{ maxWidth: "700px" }}>

@@ -107,7 +107,7 @@ const Reservas = () => {
                     <div className="d-flex justify-content-center custom-reserva-image">
                         <div>
                             <Image
-                                src="../images/game-o2.png"
+                                src="../images/mario-jump.png"
                                 alt="Mario Jump"
                                 fluid
                                 className="mario-image-reserva"

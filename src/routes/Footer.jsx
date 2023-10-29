@@ -7,6 +7,7 @@ const Footer = () => {
 
     return (
         <>
+            {/* fontawesome para iconos de "Seccion Contactanos" */}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
             <footer className="bg-dark text-white pt-5 pb-4 custom-footer">
 
@@ -14,6 +15,7 @@ const Footer = () => {
 
                     <div className="row text-center ">
 
+                        {/* Seccion Links */}
                         <div className="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h5 className="text-uppercasse mb-4 font-weight-bold text-primary">Links</h5>
                             <hr className="mb-4" />
@@ -28,11 +30,12 @@ const Footer = () => {
                                     <a href="#" className="links-footer text-light">Reservas</a>
                                 </li >
                                 <li className="mb-3">
-                                    <a href="#," className="links-footer text-light">Contacto</a>
+                                    <a href="#" className="links-footer text-light">Contacto</a>
                                 </li>
                             </ul>
                         </div>
 
+                        {/* Seccion Contactanos */}
                         <div className="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h5 className="text-uppercasse mb-4 font-weight-bold text-primary">Contáctanos</h5>
                             <hr className="mb-4" />
@@ -52,6 +55,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
+                        {/* Seccion Redes Sociales */}
                         <div className="col-md-2 col-lg-3 col-xl-3 mx-auto mt-3">
                             <h5 className="text-uppercasse mb-4 font-weight-bold text-primary">Síguenos</h5>
                             <hr className="mb-4" />
@@ -73,6 +77,7 @@ const Footer = () => {
 
                         <hr className="mb-4 mt-4" />
 
+                        {/* Derechos de autos */}
                         <div className="text-center mb-1 mt-2">
                             <p>
                                 &copy; 2023 Ricardo Fuentes: Todos los Derechos Reservados.
@@ -82,7 +87,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                
+
             </footer>
         </>
     )
