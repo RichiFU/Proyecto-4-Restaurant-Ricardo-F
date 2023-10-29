@@ -15,11 +15,11 @@ const About = () => {
           </div>
 
           <Row className="mt-5 justify-content-around">
-
+            {/* Imagen del Restaurant */}
             <Col lg={6}>
               <Image src="../images/arcade-resto-bar.jpg" alt="Arcade RestoBar" fluid className="mb-4 mt-4" />
             </Col>
-
+            {/* Descripción del Restaurant */}
             <Col lg={5}>
               <div className="about-us-text mt-4">
                 <div className="text-center">
@@ -41,30 +41,28 @@ const About = () => {
 
           </Row>
           <div className="custom-horario-about">
+            {/* Horario Del Restaurant */}
+            <div className="custom-about-title">
+              <h2 className="text-center" >Horario <FaRegClock color="#732566" /></h2>
+            </div>
 
-          <div className="custom-about-title">
-            <h2 className="text-center" >Horario <FaRegClock color="#732566" /></h2>
-          </div>
-          
-          <div className="text-center mt-5">
-            <p>
-              Los días 25 de Diciembre y del 1 al 6 de Enero, permaneceremos cerrados.
-            </p>
-            <p>
-              Lunes a Viernes : de 10.00 a 18.00 h
-            </p>
-            <p>
-              Sabados, Domingos y Festivos : de 11.00 a 19.30 horas
-            </p>
-          </div>
+            <div className="text-center mt-5">
+              <p>
+                Los días 25 de Diciembre y del 1 al 6 de Enero, permaneceremos cerrados.
+              </p>
+              <p>
+                Lunes a Viernes : de 10.00 a 18.00 h
+              </p>
+              <p>
+                Sabados, Domingos y Festivos : de 11.00 a 19.30 horas
+              </p>
+            </div>
 
-        </div>
+          </div>
 
         </Container>
 
-        
       </div>
-
 
     </section>
   )

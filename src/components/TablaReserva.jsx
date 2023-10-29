@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Table from 'react-bootstrap/Table';
 import { Pen, Trash } from "react-bootstrap-icons";
 
-// props
+// Props
 const TablaReserva = ({ clientes, deleteCliente, editCliente }) => {
     return (
         <Table striped bordered hover className='text-center' id='table'>

@@ -14,7 +14,7 @@ const NotFoundPage = () => {
 
     return (
         <section>
-
+            {/* Imagen de error al escribir ruta no correspondiente en url */}
             <div className=" container d-flex flex-column align-items-center justify-content-center h-100 pt-5 ">
                 <div className="text-center">
                     <Image

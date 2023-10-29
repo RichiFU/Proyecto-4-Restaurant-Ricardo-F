@@ -17,6 +17,7 @@ const Contacto = () => {
 
     const [cliente, setCliente] = useState(valorInicial);
 
+    // Funcion para capturar los valores de los input
     const capturarInputs = (e) => {
         e.preventDefault();
         const { name, value } = e.target;
@@ -26,11 +27,13 @@ const Contacto = () => {
         });
     };
 
+    // Evita la recarga de la pagina y llama a agregarMensaje
     const enviar = async (e) => {
         e.preventDefault();
         agregarMensaje();
     };
 
+    // Agrega un mensaje a la base de datos a la coleccion "Mensajes"
     const agregarMensaje = async () => {
         try {
             const collectionRef = collection(db, "Mensajes");
@@ -51,6 +54,7 @@ const Contacto = () => {
                     </h1>
                 </div>
 
+                {/* Formulario de Contacto */}
                 <Container className="mx-auto" style={{ maxWidth: "700px" }}>
                     <Form onSubmit={enviar}>
                         <Form.Group controlId="nombre" className="mb-4 mt-5">

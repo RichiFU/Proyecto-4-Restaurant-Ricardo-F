@@ -10,9 +10,11 @@ import "../css/estiloNav.css"
 const Navigate = () => {
   return (
     <header>
+      {/* Fondo Pixel Nav */}
       <Navbar expand="lg" bg="dark" variant="dark" className="pixel-nav">
         <Container className="custom-navbar">
           <div>
+            {/* Logo Restaurant Arcade */}
             <Nav.Link className="navlink-logo" as={NavLink} to="/">
               <Image src="../images/arcade-logo2.jpg" className="nav-logo border border-1" rounded />
             </Nav.Link>
@@ -27,8 +29,6 @@ const Navigate = () => {
                 <Nav.Link as={NavLink} to="/reservas" className="fs-4 me-2">Reservas</Nav.Link>
                 <Nav.Link as={NavLink} to="/contacto" className="fs-4 me-2">Contacto</Nav.Link>
                 <Nav.Link as={NavLink} to="/admin" className="fs-4 me-2">Admin</Nav.Link>
-          
-                
               </Nav>
             </Navbar.Collapse>
           </div>

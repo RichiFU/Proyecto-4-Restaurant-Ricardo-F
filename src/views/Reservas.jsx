@@ -15,20 +15,22 @@ const Reservas = () => {
     const [mesa, setMesa] = useState('');
 
     const handleFormSubmit = async (e) => {
-        e.preventDefault();
-        if (validateForm()) {
-            await createCliente();
-            clearForm();
-            alert("Reserva Realizada") 
+        e.preventDefault(); //Evita la recarga de la pagina
+        if (validateForm()) { //Si el formulario es valido llama a createCliente
+            await createCliente(); // Agrega la informacion a la base de datos
+            clearForm(); // Limpia el formulario
+            alert("Reserva Realizada") // Envia una alerta al usuario
         }
     };
 
+    //  Agrega un nuevo documento a la colección "reservas" en la base de datos con la información del cliente.
     const createCliente = async () => {
         if (validateForm()) {
             await addDoc(clientesCollectionRef, { nombre, email, telefono, fecha, mesa });
         }
     };
 
+    // Restablece los valores de los input
     const clearForm = () => {
         setNombre('');
         setEmail('');

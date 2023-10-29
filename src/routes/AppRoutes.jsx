@@ -21,7 +21,8 @@ const AppRoutes = () => {
           <Route path="/about" element={<About />} />
           <Route path="/reservas" element={<Reservas />} />
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/admin" element={<Admin />} />
+          {/* Ruta Admin, Se puede comentar para ocultarla transitoriamente */}
+          <Route path="/admin" element={<Admin />} /> 
           <Route path="*" element={<NotFoundPage/>} />
         </Route>
       </Routes>

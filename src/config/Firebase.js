@@ -7,6 +7,7 @@ import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// Conexión con la base de datos
 const firebaseConfig = {
   apiKey: "AIzaSyDh7pnA5mnnx-Q8l9zlsdXBEueBkNOSPSk",
   authDomain: "restobar-arcade.firebaseapp.com",

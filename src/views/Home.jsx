@@ -6,6 +6,7 @@ const Home = () => {
     <main className="bg-home">
 
       <div className="content-carousel-1">
+        {/* Presentación */}
         <h1>Arcade Taste Restobar</h1>
         <p>
           Arcade Taste es mucho más que un restobar. Es una experiencia culinaria que te transporta a la era dorada de los videojuegos mientras disfrutas de deliciosos platos.
@@ -13,6 +14,7 @@ const Home = () => {
       </div>
 
       <div>
+        {/* Carrusel de imagenes Home */}
         <Carousel>
           <Carousel.Item className=" custom-c-home1">
             <Carousel.Caption>
@@ -32,9 +34,9 @@ const Home = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        
-      </div>
 
+      </div>
+      {/* Fin de presentación */}
       <div className="content-carousel-2">
         <h1>Sabor y Juegos en un Solo Lugar</h1>
         <p>Únete a nosotros y descubre una fusión única de sabor y diversión en cada rincón de nuestro restaurante temático de estilo arcade.</p>
@@ -44,7 +46,7 @@ const Home = () => {
       </div>
 
 
-     
+
     </main>
   );
 };
